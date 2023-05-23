@@ -1,9 +1,11 @@
-nclude <stdio.h>
+#include <stdio.h>
 #include "mylib.h"
 
 int main(void){
-	int a = 3, b = 5;
-	printf("(intial) a=%d, b=%d\n", a, b);
+	
+	printf("Write the two integer a and b");
+	int a, b;
+	scanf("%d %d", &a, &b);
 
 	swap(&a,&b);
 	printf("(swapped) a=%d, b=%d\n", a, b);
