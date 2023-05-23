@@ -3,7 +3,7 @@
 
 int main(void){
 	
-	printf("Write the two integer a and b");
+	printf("input the two integer a and b");
 	int a, b;
 	scanf("%d %d", &a, &b);
 
